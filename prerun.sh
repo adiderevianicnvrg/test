@@ -1,7 +1,7 @@
 # support git lfs
 apt-get update -y
 apt-get install git-lfs -y
-git lfs install
+git lfs install -y
 
 # For a more compact command line
 echo "export PS1='\w$ '" >> ~/.bashrc
