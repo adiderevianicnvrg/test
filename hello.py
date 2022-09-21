@@ -1,5 +1,2 @@
-import os
-
-def hello(text):
-  print("hello")
-  return text
+def hello():
+  return print("hello")
