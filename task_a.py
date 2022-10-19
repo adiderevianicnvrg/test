@@ -24,8 +24,8 @@ e.log_param('random_accuracy', random_accuracy)
 # Log metric (chart) that will be automatically visualized in the task's 
 # experiment page
 print('Creating chart: random-chart')
-for i in range(100):
-    print(str(i) + '/ 100')
+for i in range(200):
+    print(str(i) + '/ 200')
     e.log_metric('random-chart', [random.random()])
     time.sleep(0.1)
 
