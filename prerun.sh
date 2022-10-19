@@ -1,4 +1,4 @@
-pip install dash-bootstrap-components
+# pip install dash-bootstrap-components
 # # support git lfs
 # apt-get update -y
 # apt-get install git-lfs -y
